@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sync Backend</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="application.js"></script>
+</head>
+<body>
+  <div class="row card items-start justify-center">
+    <div class="col-12 transparent text-center">
+      <h2 class="transparent">
+        Bate Papo
+      </h2>
+      <hr/>
+    </div>
+    <div class="col-12 card-message-box transparent scroll hidden" id="card-message-box">
+    </div>
+    <div class="col-12 input-card transparent hidden" id="input-card">
+      <input type="text" id="input-message"/>
+      <button onclick="sendMessage()">
+        enviar
+      </button>
+    </div>
+    <div class="col-12 transparent row justify-center items-center" id="login-card">
+      <div class="col-12 text-center transparent mb-10 font-weight-bold">
+        Digite seu nome:
+      </div>
+      <div class="col-12 transparent text-center mb-10">
+        <input id="input-name" placeholder="Digite um nome"/>
+      </div>
+      <div class="col-12 transparent text-center mb-10">
+        <button onclick="subscriptionChannel()">
+          Entrar
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

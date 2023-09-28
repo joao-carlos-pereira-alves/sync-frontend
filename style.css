@@ -1,0 +1,168 @@
+* {
+  background: #F4F4F4;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Define a altura do corpo como 100% da altura da janela (viewport) para centralizar verticalmente */
+  color: black;
+}
+
+.card {
+  width: min(95vw, 600px);
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  width: 100%;
+  height: 35px;
+}
+
+.card-message-box {
+  height: 285px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: start;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px; /* Margem negativa para compensar o espaçamento interno das colunas */
+  margin-right: -15px; /* Margem negativa para compensar o espaçamento interno das colunas */
+}
+
+/* Classes para colunas */
+.col-1 {
+  flex: 0 0 8.33333%; /* 1/12 */
+  max-width: 8.33333%;
+  padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+.col-2 {
+  flex: 0 0 16.66667%; /* 2/12 */
+  max-width: 16.66667%;
+  padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+.col-3 {
+  flex: 0 0 25%; /* 3/12 */
+  max-width: 25%;
+  padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+.col-4 {
+  flex: 0 0 33.33333%; /* 4/12 */
+  max-width: 33.33333%;
+  padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+.col-6 {
+  flex: 0 0 50%; /* 6/12 */
+  max-width: 50%;
+  padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+.col-10 {
+  flex: 0 0 83.33333%; /* 10/12 */
+  max-width: 83.33333%;
+  padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+.col-12 {
+  flex: 0 0 100%; /* 12/12 */
+  max-width: 100%;
+  padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.input-card input {
+  width: 85%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#input-name {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+#login-card button {
+  width: 10%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-card button {
+  width: 10%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
